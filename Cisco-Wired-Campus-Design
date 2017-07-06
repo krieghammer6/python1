@@ -13,8 +13,8 @@ snmp-server community python2 RW
 ntp server 87.81.181.2 
 ntp update-calendar
 
-clock timezone PST -8
-clock summer-time PDT recurring
+clock timezone EST -5
+clock summer-time EST recurring
 service timestamps debug datetime msec localtime 
 service timestamps log datetime msec localtime
 
